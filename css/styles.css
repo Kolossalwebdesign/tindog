@@ -1,0 +1,189 @@
+/* Body Section ***********************************************************************************/
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-weight: 900; /* Black extra bold */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 500;
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+
+/* Title Section **********************************************************************************/
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fuid {
+padding: 3% 15% 7%;
+}
+
+.phone-img {
+  transform: rotate(25deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Navigation Bar ***********************************************************************************/
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Download Buttons **************************************************************************************/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section **************************************************************************************/
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon-features-color {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon-features-color:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section ************************************************************************************/
+
+#testimonials {
+    text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.2rem;
+}
+ /* Press Section ******************************************/
+
+ #press {
+   background-color: #ef8172;
+   text-align: center;
+ }
+
+.press-logo {
+margin: 10%;
+}
+
+/* Pricing Section ******************************************/
+
+#pricing {
+  text-align: center;
+padding: 100px;
+}
+
+.pricing-column {
+padding: 3%;
+}
+
+/* Call to Action Section **************************************/
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta-h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta-dl-button {
+  margin: 3% 1% 0;
+}
+
+/* Footer Section ***********************************************/
+
+#footer {
+text-align: center;
+padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 16px;
+  color: #000;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+.copyright {
+  margin-top: 1%;
+}
+
+/* Mobile Viewport Section *************************************/
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+.phone-img {
+  position: static;
+  transform: rotate(0);
+}
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+}
